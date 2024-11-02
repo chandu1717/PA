@@ -21,3 +21,9 @@ mysql.devrob.online
 
 [shipping]
 shipping.devrob.online
+
+[rabbitmq]
+rabbitmq.devrob.online
+
+[payment]
+payment.devrob.online
