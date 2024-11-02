@@ -1,0 +1,48 @@
+ansible <Group/Host name> -m <module> -a <args>
+
+ansible all -m ping
+
+Modules:
+
+ansible doc-l # Displays list of all avaliable modules
+
+ssh-Authentication:
+
+ssh-keygen -t rsa
+
+ssh-copy-id username@<ip_address>
+
+ssh ansible@ip # check ssh
+
+Befor group header start we should define ungrouped server
+
+
+Ansible Ad-Hoc commadh:
+==================================================
+
+ansible --version
+
+ansible-doc -l
+
+ansible-doc ping
+
+ansible-doc copy
+
+task: some action are configuration will be executed on host machines from top to bottom by default
+
+handlers: notify: if some configuration or task changed then only it can activate same as funtion call
+handlers used to restart services 
+
+autoremove: yes remove all dependices package
+
+-- check : try run
+
+wait_for: 
+  delay: 60 sec  
+
+Roles:
+
+use to configure machines in effective manner
+
+
+
