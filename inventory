@@ -12,3 +12,6 @@ redis.devrob.online
 
 [user]
 user.devrob.online
+
+[cart]
+cart.devrob.online
