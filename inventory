@@ -15,3 +15,9 @@ user.devrob.online
 
 [cart]
 cart.devrob.online
+
+[mysql]
+mysql.devrob.online
+
+[shipping]
+shipping.devrob.online
