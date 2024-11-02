@@ -1,2 +1,5 @@
 [mongodb]
 mongodb.devrob.online
+
+[catalogue]
+catalogue.devrob.online
